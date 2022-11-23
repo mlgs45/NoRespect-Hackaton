@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "npm i && husky install && npm --prefix ./frontend i"
+    "setup": "npm i && husky install && npm --prefix ./frontend i",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-front": "npm --prefix ./frontend run dev",
     "lint": "npm --prefix ./frontend run lint",
