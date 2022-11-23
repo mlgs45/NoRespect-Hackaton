@@ -1,0 +1,28 @@
+{
+  "name": "norespect-hackaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && husky install && npm --prefix ./frontend i"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-front": "npm --prefix ./frontend run dev",
+    "lint": "npm --prefix ./frontend run lint",
+    "fix": "npm --prefix ./frontend run fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlgs45/NoRespect-Hackaton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlgs45/NoRespect-Hackaton/issues"
+  },
+  "homepage": "https://github.com/mlgs45/NoRespect-Hackaton#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "husky": "^8.0.2"
+  }
+}
