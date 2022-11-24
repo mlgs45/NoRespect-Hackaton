@@ -21,3 +21,11 @@ footer {
   display: flex;
   align-items: center;
 }
+
+.social {
+  display: flex;
+  flex-direction: row;
+  min-width: 25px;
+  min-height: 25px;
+  margin: 15px;
+}
