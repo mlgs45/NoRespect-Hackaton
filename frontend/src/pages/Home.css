@@ -1,9 +1,6 @@
 .container-animation {
   background: linear-gradient(var(--color-sky-light), var(--color-sky-dark));
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .containe-animation:before {
