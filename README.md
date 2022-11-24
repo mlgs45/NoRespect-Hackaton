@@ -12,10 +12,10 @@ The name of the application: Envisioned Journey.
 
 ### Wireframes
 
-![alt text](./frontend/src/assets/img/wireframes/home.png)
-![alt text](./frontend/src/assets/img/wireframes/quiz.png)
-![alt text](./frontend/src/assets/img/wireframes/travel.png)
-![alt text](./frontend/src/assets/img/wireframes/contact.png)
+![alt text](./frontend/src/assets/img/wireframes/home.jpg)
+![alt text](./frontend/src/assets/img/wireframes/quiz.jpg)
+![alt text](./frontend/src/assets/img/wireframes/travel.jpg)
+![alt text](./frontend/src/assets/img/wireframes/contact.jpg)
 
 ### Logo
 
