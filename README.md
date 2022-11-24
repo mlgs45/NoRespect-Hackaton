@@ -1,4 +1,4 @@
-# Hackaton - wild Code School
+# Hackaton - Wild Code School
 
 ##  Envisioned Journey
 
