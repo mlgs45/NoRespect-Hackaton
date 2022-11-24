@@ -1,0 +1,19 @@
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45rem;
+}
+
+.notFoundLottie {
+  width: 20rem;
+  height: 20rem;
+}
+
+@media screen and (min-width: 391px) {
+  .notFoundLottie {
+    width: 60rem;
+    height: 60rem;
+  }
+}
