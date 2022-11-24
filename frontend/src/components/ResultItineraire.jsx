@@ -8,7 +8,7 @@ import "./ResultItineraire.css";
 function Tripjour1() {
   return (
     <>
-      <h1>
+      <h1 id="title">
         <span className="t-bold">Découvrez</span> le programme{" "}
         <span className="t-bold">de votre voyage</span>
       </h1>
