@@ -1,8 +1,0 @@
-@import "assets/styles/variables.css";
-
-:root {
-  background-color: var(--bodyBackgroundColor);
-}
-body {
-  margin: 0;
-}
