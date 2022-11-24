@@ -1,4 +1,4 @@
-const jour1 = [
+export const jour1 = [
   {
     id: "1",
     name: "Train Paris > Rome",
@@ -8,6 +8,7 @@ const jour1 = [
     countCo2: "3,1",
     website: "https://www.sncf.com/",
     img: "img/train.png",
+    icon: "img/icon/icon-step-transport.svg",
   },
   {
     id: "2",
@@ -18,6 +19,8 @@ const jour1 = [
     website:
       "https://www.facebook.com/pages/Pizza%20e%20Mozzarella/177933742916115/",
     img: "img/restaurant-e-mozarella.png",
+    type: "restaurant",
+    icon: "img/icon/icon-step-restaurant.svg",
   },
   {
     id: "3",
@@ -27,6 +30,8 @@ const jour1 = [
     countCo2: "0",
     website: "https://www.il-colosseo.it/fr/",
     img: "img/colisee.png",
+    type: "tourisme",
+    icon: "img/icon/icon-step-tourisme.svg",
   },
   {
     id: "4",
@@ -37,7 +42,50 @@ const jour1 = [
     countCo2: "5",
     website: "https://www.starhotels.com/fr/nos-hotels/michelangelo-rome/",
     img: "img/hotel.png",
+    icon: "img/icon/icon-step-logement.svg",
   },
 ];
 
-export default jour1;
+export const jour2 = [
+  {
+    id: "5",
+    name: "Le Vatican",
+    address: "Cité du Vatican, Rome",
+    description:
+      "C'est l'une des étapes obligatoires de tout city break à Rome.",
+    countCo2: "0",
+    website: "https://www.vatican.va/content/vatican/fr.html",
+    img: "img/vatican.png",
+    icon: "img/icon/icon-step-tourisme.svg",
+  },
+  {
+    id: "6",
+    name: "Dar Poeta",
+    address: "Vicolo del Bologna, 45, 00153 Rome",
+    description: "Pour un déjeuner, c’est une adresse qui vaut le détour.",
+    countCo2: "1,5",
+    website: "https://www.darpoeta.com/en/dar-poeta-en/",
+    img: "img/restaurant-jour2.png",
+    icon: "img/icon/icon-step-restaurant.svg",
+  },
+  {
+    id: "7",
+    name: "Fontaine de Trevi",
+    address: "Piazza di Trevi, 00187 Roma",
+    description: "Sans aucun doute, l'un des symboles les plus connus de Rome.",
+    countCo2: "0",
+    website: "https://www.il-colosseo.it/fr/",
+    img: "img/fontaine-trevi.png",
+    icon: "img/icon/icon-step-tourisme.svg",
+  },
+  {
+    id: "8",
+    name: "Ginger",
+    address: "Via Borgognona, 43-46, 00187 Rome",
+    description: "Très bel endroit qui sert de bons smoothies frais",
+    countCo2: "0.8",
+    website: "https://www.starhotels.com/fr/nos-hotels/michelangelo-rome/",
+    img: "img/cocktail.png",
+    icon: "img/icon/icon-step-cocktail.svg",
+  },
+];

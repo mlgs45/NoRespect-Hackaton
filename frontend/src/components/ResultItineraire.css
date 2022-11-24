@@ -1,4 +1,4 @@
-h1 #title {
+.title {
   text-align: center;
   font-family: Roboto;
   font-weight: normal;
@@ -113,9 +113,9 @@ h1 #title {
 .btn-booking {
   display: flex;
   flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  width : auto;
+  justify-content: center;
+  align-items: center;
+  width: auto;
   height: 1.5rem;
   background-color: #ffffff;
   border: none;
@@ -125,5 +125,9 @@ h1 #title {
 .textButton {
   color: #aed768;
   font-size: 0.75rem;
-    font-weight: 900;
+  font-weight: 900;
+}
+
+.jour {
+  margin-bottom: 1rem;
 }
