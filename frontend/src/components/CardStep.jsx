@@ -21,7 +21,7 @@ function CardStep({
         <div className="blocStep">
           <img id="iconStep" src={icon} alt="type of step" />
           <div className="countCo2">{countCo2} kg Co2</div>
-          <button className="btn-booking" onClick={website}>
+          <button type="button" className="btn-booking" onClick={website}>
             <div className="textButton">Réserver</div>
           </button>
         </div>
