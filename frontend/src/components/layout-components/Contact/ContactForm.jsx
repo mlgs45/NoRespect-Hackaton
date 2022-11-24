@@ -1,11 +1,14 @@
+import { Player } from "@lottiefiles/react-lottie-player";
 import { toast } from "react-toastify";
 import "./ContactForm.css";
+import mail from "../../../assets/lottie/contact.json";
 
 function ContactForm() {
   const notif = () => toast("Votre message est bien parti");
 
   return (
     <div className="container">
+      <Player autoplay loop src={mail} className="contactLottie" />
       <form>
         <h1>
           NOUS <span id="italic">CONTACTER</span>
