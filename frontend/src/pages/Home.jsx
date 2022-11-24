@@ -5,6 +5,7 @@ import bottomIcon from "../assets/img/home/bottomIcon.svg";
 
 import "./Home.css";
 
+
 export default function Home() {
   return (
     <div className="home">

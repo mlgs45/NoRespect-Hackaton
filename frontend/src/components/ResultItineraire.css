@@ -1,0 +1,109 @@
+h1 #title {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(54, 53, 53);
+  width: 70%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.t-bold {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.headerDay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dayCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+  background-color: #aed768;
+}
+
+.dayD {
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.nameCity {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-left: 0.75rem;
+}
+
+.cardStep {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: auto;
+  height: auto;
+  background-color: #aed768;
+  border-radius: 5px;
+}
+
+#imgStep {
+  width: 91px;
+  height: 91px;
+}
+
+.cardInformations {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+}
+
+.informationsStep {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 0, 5rem;
+  padding-right: 1rem;
+}
+
+.nameStep {
+  font-weight: 900;
+}
+
+.adressStep {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.descStep {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.blocStep {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#iconStep {
+  width: 2rem;
+  height: 2rem;
+}
+
+.countCo2 {
+  font-size: 0.75rem;
+  color: #fff;
+}

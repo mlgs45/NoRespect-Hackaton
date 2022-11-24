@@ -1,0 +1,43 @@
+const jour1 = [
+  {
+    id: "1",
+    name: "Train Paris > Rome",
+    address: "Gare de Lyon",
+    description:
+      "Pour partir à Rome, privilégiez le train qui est la moins consommatrice en CO2",
+    countCo2: "3,1",
+    website: "https://www.sncf.com/",
+    img: "../img/#",
+  },
+  {
+    id: "2",
+    name: "Restaurant E Mozzarella",
+    address: "Via del Piè di Marmo 32, 00186 Rome",
+    description: "Avec ses circuits courts et son choix de légumes de saison",
+    countCo2: "1,5",
+    website:
+      "https://www.facebook.com/pages/Pizza%20e%20Mozzarella/177933742916115/",
+    img: "../img/restaurant-e-mozarella.png",
+  },
+  {
+    id: "3",
+    name: "Le Colisée",
+    address: "piazza del colosseo, 00186 Rome",
+    description: "Sans aucun doute, l'un des symboles les plus connus de Rome.",
+    countCo2: "0",
+    website: "https://www.il-colosseo.it/fr/",
+    img: "../img/#",
+  },
+  {
+    id: "4",
+    name: "Starhotels Michelangelo",
+    address: "Via della Stazione di S. Pietro, 14, 00165 Rome",
+    description:
+      "La totalité des éléments architecturaux en font une construction respectueuse de l’environnement",
+    countCo2: "5",
+    website: "https://www.starhotels.com/fr/nos-hotels/michelangelo-rome/",
+    img: "../img/#",
+  },
+];
+
+export default jour1;
