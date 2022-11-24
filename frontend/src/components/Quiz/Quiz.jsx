@@ -1,10 +1,26 @@
 import "./Quiz.css";
+import React, { useState } from "react";
 
 export default function Quiz() {
+  const [btnActive, setBtnActive] = useState("");
+  const [showChoiseDestination, setShowChoiseDestination] = useState(true);
+
+  function handleClickBtn(e) {
+    if (btnActive === e.currentTarget.id) {
+      setBtnActive("");
+    } else {
+      setBtnActive(e.currentTarget.id);
+    }
+  }
+
+  function handleClickChoiseDestination() {
+    setShowChoiseDestination(!showChoiseDestination);
+  }
+
   return (
     <div className="content">
       <section>
-        <h1>
+        <h1 className="h1">
           <span className="t-bold">imaginez</span> votre voyage{" "}
           <span className="t-bold">dès maintenant</span>
         </h1>
@@ -13,15 +29,26 @@ export default function Quiz() {
             Connaissez-vous votre destination ?
           </div>
           <div className="form">
-            <button className="button" type="button">
-              NON
+            <button
+              id="choiseDestination"
+              onClick={handleClickChoiseDestination}
+              className={
+                showChoiseDestination === false ? "btn-active button" : "button"
+              }
+              type="button"
+            >
+              {showChoiseDestination === true ? "NON" : "OUI"}
             </button>
-            <input
-              className="w-70 mg-left-5"
-              type="text"
-              name="destination"
-              placeholder="Entrez votre destination"
-            />
+            {showChoiseDestination === true ? (
+              <input
+                className="w-70 mg-left-5"
+                type="text"
+                name="destination"
+                placeholder="Entrez votre destination"
+              />
+            ) : (
+              false
+            )}
           </div>
         </div>
 
@@ -67,16 +94,52 @@ export default function Quiz() {
             Quels sont vos centres d'intérêts ?
           </div>
           <div className="button-group">
-            <button className="button btn-flex" type="button">
+            <button
+              id="btn1"
+              onClick={handleClickBtn}
+              className={
+                btnActive === "btn1"
+                  ? "btn-active button btn-flex"
+                  : "button btn-flex"
+              }
+              type="button"
+            >
               Culture
             </button>
-            <button className="button btn-flex" type="button">
+            <button
+              id="btn2"
+              onClick={handleClickBtn}
+              className={
+                btnActive === "btn2"
+                  ? "btn-active button btn-flex"
+                  : "button btn-flex"
+              }
+              type="button"
+            >
               Sport
             </button>
-            <button className="button btn-flex" type="button">
+            <button
+              id="btn3"
+              onClick={handleClickBtn}
+              className={
+                btnActive === "btn3"
+                  ? "btn-active button btn-flex"
+                  : "button btn-flex"
+              }
+              type="button"
+            >
               Nature
             </button>
-            <button className="button btn-flex" type="button">
+            <button
+              id="btn4"
+              onClick={handleClickBtn}
+              className={
+                btnActive === "btn4"
+                  ? "btn-active button btn-flex"
+                  : "button btn-flex"
+              }
+              type="button"
+            >
               Shopping
             </button>
           </div>
