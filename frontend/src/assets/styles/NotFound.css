@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 45rem;
+  height: 40.1rem;
 }
 
 .notFoundLottie {
@@ -43,6 +43,7 @@
     justify-content: center;
     align-items: center;
     height: 60rem;
+    margin-bottom: 3.1rem;
   }
 
   .notFoundLottie {
