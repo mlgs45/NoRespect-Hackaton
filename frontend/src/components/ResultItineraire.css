@@ -1,4 +1,4 @@
-h1 #title {
+.title {
   text-align: center;
   font-family: Roboto;
   font-weight: normal;
@@ -126,4 +126,8 @@ h1 #title {
   color: #aed768;
   font-size: 0.75rem;
   font-weight: 900;
+}
+
+.jour {
+  margin-bottom: 1rem;
 }
