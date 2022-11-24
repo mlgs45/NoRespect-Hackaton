@@ -21,3 +21,9 @@ footer {
   display: flex;
   align-items: center;
 }
+
+.social {
+  margin: 0 10px;
+  color: #ccc;
+  font-size: 20px;
+}
