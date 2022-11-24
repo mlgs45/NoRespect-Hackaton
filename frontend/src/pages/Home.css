@@ -1,0 +1,59 @@
+
+
+.home-info {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: #aed768;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding:5%;
+    margin-bottom: 10%;
+}
+
+.span {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-start{
+    background-color: #975AB6 ;
+    padding: 10%;
+    text-align: center;
+    
+}
+
+.button-home {
+    background-color: #FFAC3E;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bottom-home-page{
+    background-color: #aed768;
+    display: flex;
+    padding: 20%;
+}
+
+.welcome-illustration {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.bottom-illustration {
+    display: flex;
+
+}
+
+
+.bottom-icon {
+    display: flex;
+    width:100%;
+    margin: 0 auto;
+
+}

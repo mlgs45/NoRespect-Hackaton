@@ -1,5 +1,6 @@
 import { stack as Menu } from "react-burger-menu";
 import "./Navbar.css";
+import logo from "../../../assets/img/envisioned_logo.svg";
 
 export default function Navbar() {
   return (
@@ -15,6 +16,9 @@ export default function Navbar() {
           Nous contacter
         </a>
       </Menu>
+      <header className="header">
+        <img className="logo" src={logo} alt="Logo" />
+      </header>
     </div>
   );
 }

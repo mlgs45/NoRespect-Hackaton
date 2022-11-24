@@ -1,0 +1,65 @@
+@import "./variables.css";
+
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45rem;
+}
+
+.notFoundLottie {
+  width: 20rem;
+  height: 20rem;
+}
+
+.notFoundButton {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--notFoundButtonBackgroundColor);
+  border: var(--notFoundButtonBorder);
+  color: var(--notFoundButtonTextColor);
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.notFoundButton:hover {
+  background-color: var(--notFoundButtonHoverBackgroundColor);
+  color: var(--notFoundButtonHovertextColor);
+}
+
+.notFoundButton:active {
+  background-color: var(--notFoundButtonActiveBackgroundColor);
+  color: var(--notFoundButtonActiveTextColor);
+}
+
+@media screen and (min-width: 391px) {
+  .notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+  }
+
+  .notFoundLottie {
+    width: 60rem;
+    height: 60rem;
+  }
+
+  .notFoundButton {
+    margin-top: 0;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--notFoundButtonBackgroundColor);
+    border: var(--notFoundButtonBorder);
+    color: var(--notFoundButtonTextColor);
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
