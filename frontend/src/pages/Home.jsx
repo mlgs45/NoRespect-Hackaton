@@ -37,10 +37,11 @@ export default function Home() {
         </span>
       </div>
       <div className="home-start">
-        <h2>Demarrer votre Journey</h2>
+        <h2>Démarrer votre Journey</h2>
         <button type="button" className="button-home">
-          {" "}
-          GO{" "}
+          <div className="textButton">{" "}
+            GO{" "}
+          </div>
         </button>
       </div>
       <div className="container-animation">
