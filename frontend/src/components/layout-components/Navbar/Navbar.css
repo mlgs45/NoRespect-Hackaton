@@ -56,3 +56,14 @@
   height: 6.5rem;
   background-color: var(--navbarOuterContainerbackgroundColor);
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.logo {
+  width: 70px;
+}
