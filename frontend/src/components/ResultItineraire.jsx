@@ -23,12 +23,13 @@ function Tripjour1() {
       </div>
       {jour1.map((step) => (
         <CardStep
+            key={step.id}
           name={step.name}
           address={step.address}
           description={step.description}
           countCo2={step.countCo2}
           website={step.website}
-          image={step.image}
+          image={step.img}
         />
       ))}
     </>

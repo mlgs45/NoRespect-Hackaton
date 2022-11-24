@@ -7,7 +7,7 @@ const jour1 = [
       "Pour partir à Rome, privilégiez le train qui est la moins consommatrice en CO2",
     countCo2: "3,1",
     website: "https://www.sncf.com/",
-    img: "../img/#",
+    img: "img/train.png",
   },
   {
     id: "2",
@@ -17,7 +17,7 @@ const jour1 = [
     countCo2: "1,5",
     website:
       "https://www.facebook.com/pages/Pizza%20e%20Mozzarella/177933742916115/",
-    img: "../img/restaurant-e-mozarella.png",
+    img: "img/restaurant-e-mozarella.png",
   },
   {
     id: "3",
@@ -26,17 +26,17 @@ const jour1 = [
     description: "Sans aucun doute, l'un des symboles les plus connus de Rome.",
     countCo2: "0",
     website: "https://www.il-colosseo.it/fr/",
-    img: "../img/#",
+    img: "img/colisee.png",
   },
   {
     id: "4",
     name: "Starhotels Michelangelo",
-    address: "Via della Stazione di S. Pietro, 14, 00165 Rome",
+    address: "Via della Stazione, 14, 00165 Rome",
     description:
-      "La totalité des éléments architecturaux en font une construction respectueuse de l’environnement",
+      "Ses éléments architecturaux en font un hotel respectueux de l’environnement",
     countCo2: "5",
     website: "https://www.starhotels.com/fr/nos-hotels/michelangelo-rome/",
-    img: "../img/#",
+    img: "img/hotel.png",
   },
 ];
 
