@@ -1,11 +1,12 @@
 import React from "react";
 // eslint-disable-next-line import/extensions
 import CardStep from "./CardStep.jsx";
-import { jour1, jour2 } from "../assets/data/data";
+import jour1Toulouse from "../assets/data/dataToulouse";
 
 import "./ResultItineraire.css";
+import jour2Toulouse from "../assets/data/dataToulousejour2";
 
-function Tripjour1() {
+function TripjourToulouse() {
   return (
     <>
       <h1 className="title">
@@ -19,10 +20,10 @@ function Tripjour1() {
             <div className="dayCount">
               <div className="dayD">JOUR 1</div>
             </div>
-            <div className="nameCity">ROME</div>
+            <div className="nameCity">CLERMONT-FERRAND</div>
           </div>
         </div>
-        {jour1.map((step) => (
+        {jour1Toulouse.map((step) => (
           <CardStep
             key={step.id}
             icon={step.icon}
@@ -41,14 +42,14 @@ function Tripjour1() {
             <div className="dayCount">
               <div className="dayD">JOUR 2</div>
             </div>
-            <div className="nameCity">ROME</div>
+            <div className="nameCity">TOULOUSE</div>
           </div>
         </div>
-        {jour2.map((step) => (
+        {jour2Toulouse.map((step) => (
           <CardStep
             key={step.id}
-            name={step.name}
             icon={step.icon}
+            name={step.name}
             address={step.address}
             description={step.description}
             countCo2={step.countCo2}
@@ -61,4 +62,4 @@ function Tripjour1() {
   );
 }
 
-export default Tripjour1;
+export default TripjourToulouse;
