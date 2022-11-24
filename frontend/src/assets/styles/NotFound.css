@@ -12,6 +12,14 @@
 }
 
 @media screen and (min-width: 391px) {
+  .notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+  }
+
   .notFoundLottie {
     width: 60rem;
     height: 60rem;
