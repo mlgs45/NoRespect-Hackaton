@@ -1,7 +1,6 @@
 import Footer from "../components/layout-components/Footer/Footer";
 import Navbar from "../components/layout-components/Navbar/Navbar";
 import welcomeIcon from "../assets/img/home/welcomeIcon.svg";
-import bottomIcon from "../assets/img/home/bottomIcon.svg";
 
 import "./Home.css";
 
