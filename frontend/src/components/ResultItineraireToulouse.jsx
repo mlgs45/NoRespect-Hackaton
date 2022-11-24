@@ -45,7 +45,7 @@ function TripjourToulouse() {
             <div className="nameCity">TOULOUSE</div>
           </div>
         </div>
-        {toulouse.jour2.map((step) => (
+        {toulouseJour2.map((step) => (
           <CardStep
             key={step.id}
             icon={step.icon}
