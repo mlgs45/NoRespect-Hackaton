@@ -23,7 +23,7 @@ function Tripjour1() {
       </div>
       {jour1.map((step) => (
         <CardStep
-            key={step.id}
+          key={step.id}
           name={step.name}
           address={step.address}
           description={step.description}
