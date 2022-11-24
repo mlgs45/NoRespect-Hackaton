@@ -1,0 +1,14 @@
+:root {
+  /*Color background for body page*/
+  --bodyBackgroundColor: #e8e0e0;
+
+  /*-----------------------------*/
+  /*Variables navbar             */
+  /*-----------------------------*/
+  --navbarBackgroundColor: #202020;
+  --navbarOverlayColor: rgba(0, 0, 0, 0.3);
+  --navbarCrossButtonColor: #aed768;
+  --navbarLinkColor: #d1d1d1;
+  --navbarLinkHoverColor: #aed768;
+  --navbarButtonColor: #aed768;
+}

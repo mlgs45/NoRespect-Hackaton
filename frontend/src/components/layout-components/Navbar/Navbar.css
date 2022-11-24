@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Audiowide:regular);
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+/*Link style*/
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: var(--navbarLinkColor);
+  transition: color 0.2s;
+}
+
+/*Link hover*/
+.bm-item:hover {
+  color: var(--navbarLinkHoverColor);
+}
+
+/*Button menu burger*/
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: var(--navbarButtonColor);
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: var(--navbarCrossButtonColor);
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: var(--navbarBackgroundColor);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: var(--navbarOverlayColor);
+}
