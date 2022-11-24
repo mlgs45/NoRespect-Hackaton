@@ -1,13 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 @import url(https://fonts.googleapis.com/css?family=Audiowide:regular);
 
-#page-wrap {
-  text-align: center;
-  overflow: auto;
-  top: 45%;
-  position: relative;
-}
-
 /*Link style*/
 .bm-item {
   display: inline-block;
@@ -57,4 +50,9 @@
 /* Styling of overlay */
 .bm-overlay {
   background: var(--navbarOverlayColor);
+}
+
+#outer-container {
+  height: 6.5rem;
+  background-color: var(--navbarOuterContainerbackgroundColor);
 }
