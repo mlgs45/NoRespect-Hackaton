@@ -75,3 +75,11 @@ body {
   width: 7rem;
   height: 7rem;
 }
+
+@media screen and (min-width: 391px) {
+  .contactForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22.3rem;
+  }
+}
