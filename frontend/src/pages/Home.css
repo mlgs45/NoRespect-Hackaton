@@ -416,6 +416,13 @@
   }
 }
 
+.home-header {
+  display:flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+
 .home-info {
   display: flex;
   flex-direction: column;
@@ -460,10 +467,7 @@
 }
 
 .welcome-illustration {
-  display: flex;
-  justify-content: space-between;
   width: 70%;
-  margin-left: 15%;
 }
 
 .bottom-illustration {
