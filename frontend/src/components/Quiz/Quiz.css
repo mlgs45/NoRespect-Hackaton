@@ -124,6 +124,10 @@
   margin-bottom: 1.4rem;
 }
 
+.mg-r-0-5 {
+  margin-right: 0.5rem;
+}
+
 .button-group {
   display: flex;
   flex-wrap: wrap;

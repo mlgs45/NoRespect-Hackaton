@@ -1,9 +1,13 @@
 import "./Quiz.css";
 import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 export default function Quiz() {
   const [btnActive, setBtnActive] = useState("");
   const [showChoiseDestination, setShowChoiseDestination] = useState(true);
+  const [startDate, setStartDate] = useState(new Date());
+  const [endDate, setEndDate] = useState(new Date());
 
   function handleClickBtn(e) {
     if (btnActive === e.currentTarget.id) {
@@ -49,6 +53,27 @@ export default function Quiz() {
             ) : (
               false
             )}
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-title mg-b-1-4">
+            Quelle sont les dates de votre voyages ?
+          </div>
+          <div className="inline space-b mg-b-08">
+            <div className="card-title mg-r-0-5">Départ: </div>
+            <DatePicker
+              dateFormat="dd/MM/yyyy"
+              selected={startDate}
+              onChange={(date) => setStartDate(date)}
+            />
+          </div>
+          <div className="inline space-b">
+            <div className="card-title  mg-r-0-5">Arrivée</div>
+            <DatePicker
+              dateFormat="dd/MM/yyyy"
+              selected={endDate}
+              onChange={(date) => setEndDate(date)}
+            />
           </div>
         </div>
 
