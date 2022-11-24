@@ -1,10 +1,29 @@
 import { Player } from "@lottiefiles/react-lottie-player";
-import { toast } from "react-toastify";
-import "./ContactForm.css";
+import { ToastContainer, Zoom, toast } from "react-toastify";
 import mail from "../../../assets/lottie/contact.json";
+import "react-toastify/dist/ReactToastify.css";
+import "./ContactForm.css";
 
 function ContactForm() {
-  const notif = () => toast("Votre message est bien parti");
+  const notif = () => {
+    toast.success(
+      <div>
+        <p>Votre message est bien parti</p>
+      </div>,
+      {
+        position: "top-right",
+        autoClose: 4000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        transition: Zoom,
+      }
+    );
+  };
+
   return (
     <div className="container">
       <Player autoplay loop src={mail} className="contactLottie" />
@@ -43,7 +62,7 @@ function ContactForm() {
         </div>
         <div>
           <button
-            type="submit"
+            type="button"
             className="buttonSubmit"
             value="Send"
             onClick={() => {
@@ -53,6 +72,7 @@ function ContactForm() {
             Envoyer →
           </button>
         </div>
+        <ToastContainer />
       </form>
     </div>
   );
