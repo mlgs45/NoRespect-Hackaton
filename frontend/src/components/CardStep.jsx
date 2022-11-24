@@ -1,7 +1,14 @@
 import React from "react";
-import icon from "../assets/img/icon-step-transport.svg";
 
-function CardStep({ name, address, description, countCo2, website, image }) {
+function CardStep({
+  name,
+  address,
+  description,
+  countCo2,
+  website,
+  image,
+  icon,
+}) {
   return (
     <div className="cardStep">
       <img id="imgStep" src={image} alt="illustration of Step" />
