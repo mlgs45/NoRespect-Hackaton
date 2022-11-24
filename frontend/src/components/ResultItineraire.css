@@ -131,3 +131,24 @@
 .jour {
   margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 391px) {
+    .cardStep {
+        width: 50%;
+      margin-left:0;
+      margin-right: 0;
+    }
+
+  .jour {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .informationsStep {
+    padding-left: 1rem;
+    padding-right:2rem;
+    margin-right:5rem;
+  }
+}
