@@ -1,10 +1,10 @@
 import React from "react";
 // eslint-disable-next-line import/extensions
 import CardStep from "./CardStep.jsx";
-import jour1Toulouse from "../assets/data/dataToulouse";
+import toulouseJour1 from "../assets/data/data.toulouseJour1.json";
 
 import "./ResultItineraire.css";
-import jour2Toulouse from "../assets/data/dataToulousejour2";
+import toulouseJour2 from "../assets/data/data.toulouseJour2.json";
 
 function TripjourToulouse() {
   return (
@@ -23,7 +23,7 @@ function TripjourToulouse() {
             <div className="nameCity">CLERMONT-FERRAND</div>
           </div>
         </div>
-        {jour1Toulouse.map((step) => (
+        {toulouseJour1.map((step) => (
           <CardStep
             key={step.id}
             icon={step.icon}
@@ -45,7 +45,7 @@ function TripjourToulouse() {
             <div className="nameCity">TOULOUSE</div>
           </div>
         </div>
-        {jour2Toulouse.map((step) => (
+        {toulouse.jour2.map((step) => (
           <CardStep
             key={step.id}
             icon={step.icon}

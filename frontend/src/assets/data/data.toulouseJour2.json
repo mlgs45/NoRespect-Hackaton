@@ -1,4 +1,4 @@
-const jour2Toulouse = [
+[
   {
     id: "1",
     name: "Train Clermont-Ferrand > Toulouse",
@@ -44,6 +44,4 @@ const jour2Toulouse = [
     img: "img/flow-house.png",
     icon: "img/icon/icon-step-restaurant.svg",
   },
-];
-
-export default jour2Toulouse;
+]
