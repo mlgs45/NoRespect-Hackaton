@@ -1,4 +1,4 @@
-const jour1 = [
+export const jour1 = [
   {
     id: "1",
     name: "Train Paris > Rome",
@@ -7,7 +7,8 @@ const jour1 = [
       "Pour partir à Rome, privilégiez le train qui est la moins consommatrice en CO2",
     countCo2: "3,1",
     website: "https://www.sncf.com/",
-    img: "../img/#",
+    img: "img/train.png",
+    icon: "img/icon/icon-step-transport.svg",
   },
   {
     id: "2",
@@ -17,7 +18,9 @@ const jour1 = [
     countCo2: "1,5",
     website:
       "https://www.facebook.com/pages/Pizza%20e%20Mozzarella/177933742916115/",
-    img: "../img/restaurant-e-mozarella.png",
+    img: "img/restaurant-e-mozarella.png",
+    type: "restaurant",
+    icon: "img/icon/icon-step-restaurant.svg",
   },
   {
     id: "3",
@@ -26,18 +29,63 @@ const jour1 = [
     description: "Sans aucun doute, l'un des symboles les plus connus de Rome.",
     countCo2: "0",
     website: "https://www.il-colosseo.it/fr/",
-    img: "../img/#",
+    img: "img/colisee.png",
+    type: "tourisme",
+    icon: "img/icon/icon-step-tourisme.svg",
   },
   {
     id: "4",
     name: "Starhotels Michelangelo",
-    address: "Via della Stazione di S. Pietro, 14, 00165 Rome",
+    address: "Via della Stazione, 14, 00165 Rome",
     description:
-      "La totalité des éléments architecturaux en font une construction respectueuse de l’environnement",
+      "Ses éléments architecturaux en font un hotel respectueux de l’environnement",
     countCo2: "5",
     website: "https://www.starhotels.com/fr/nos-hotels/michelangelo-rome/",
-    img: "../img/#",
+    img: "img/hotel.png",
+    icon: "img/icon/icon-step-logement.svg",
   },
 ];
 
-export default jour1;
+export const jour2 = [
+  {
+    id: "5",
+    name: "Le Vatican",
+    address: "Cité du Vatican, Rome",
+    description:
+      "C'est l'une des étapes obligatoires de tout city break à Rome.",
+    countCo2: "0",
+    website: "https://www.vatican.va/content/vatican/fr.html",
+    img: "img/vatican.png",
+    icon: "img/icon/icon-step-tourisme.svg",
+  },
+  {
+    id: "6",
+    name: "Dar Poeta",
+    address: "Vicolo del Bologna, 45, 00153 Rome",
+    description: "Pour un déjeuner, c’est une adresse qui vaut le détour.",
+    countCo2: "1,5",
+    website: "https://www.darpoeta.com/en/dar-poeta-en/",
+    img: "img/restaurant-jour2.png",
+    icon: "img/icon/icon-step-restaurant.svg",
+  },
+  {
+    id: "7",
+    name: "Fontaine de Trevi",
+    address: "Piazza di Trevi, 00187 Roma",
+    description: "Sans aucun doute, l'un des symboles les plus connus de Rome.",
+    countCo2: "0",
+    website: "https://www.il-colosseo.it/fr/",
+    img: "img/fontaine-trevi.png",
+    icon: "img/icon/icon-step-tourisme.svg",
+  },
+  {
+    id: "8",
+    name: "Ginger",
+    address: "Via Borgognona, 43-46, 00187 Rome",
+    description: "Très bel endroit qui sert de bons smoothies frais",
+    countCo2: "0.8",
+    website: "https://www.starhotels.com/fr/nos-hotels/michelangelo-rome/",
+    img: "img/cocktail.png",
+    icon: "img/icon/icon-step-cocktail.svg",
+  },
+];

@@ -1,4 +1,4 @@
-h1 #title {
+.title {
   text-align: center;
   font-family: Roboto;
   font-weight: normal;
@@ -96,6 +96,8 @@ h1 #title {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: flex-end;
+  margin-right: 0.5rem;
 }
 
 #iconStep {
@@ -106,4 +108,26 @@ h1 #title {
 .countCo2 {
   font-size: 0.75rem;
   color: #fff;
+}
+
+.btn-booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 1.5rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.textButton {
+  color: #aed768;
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.jour {
+  margin-bottom: 1rem;
 }

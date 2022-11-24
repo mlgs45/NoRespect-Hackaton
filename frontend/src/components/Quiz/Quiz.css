@@ -6,7 +6,7 @@
   margin-bottom: 2.1rem;
 }
 
-h1 {
+.h1 {
   margin: 0;
   padding: 0;
   font-family: "Roboto";
@@ -125,6 +125,10 @@ h1 {
   margin-bottom: 1.4rem;
 }
 
+.mg-r-0-5 {
+  margin-right: 0.5rem;
+}
+
 .button-group {
   display: flex;
   flex-wrap: wrap;
@@ -150,4 +154,10 @@ h1 {
   padding: 0.6rem;
   float: right;
   margin-bottom: 2rem;
+}
+
+.btn-active {
+  border: 1px #fff solid;
+  box-shadow: none;
+  background-color: #573568;
 }
