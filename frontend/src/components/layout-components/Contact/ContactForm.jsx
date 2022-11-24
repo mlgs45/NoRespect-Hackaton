@@ -5,14 +5,15 @@ import mail from "../../../assets/lottie/contact.json";
 
 function ContactForm() {
   const notif = () => toast("Votre message est bien parti");
-
   return (
     <div className="container">
       <Player autoplay loop src={mail} className="contactLottie" />
       <form>
-        <h1>
-          NOUS <span id="italic">CONTACTER</span>
-        </h1>
+        <div>
+          <h1>
+            NOUS <span id="italic">CONTACTER</span>
+          </h1>
+        </div>
         <div>
           <input
             type="text"

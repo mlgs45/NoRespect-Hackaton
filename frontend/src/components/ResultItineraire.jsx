@@ -1,7 +1,7 @@
 import React from "react";
-// eslint-disable-next-line import/extensions
-import CardStep from "./CardStep.jsx";
-import { jour1, jour2 } from "../assets/data/data";
+import CardStep from "./CardStep";
+import jour1 from "../assets/data/data.jour1.json";
+import jour2 from "../assets/data/data.jour2.json";
 
 import "./ResultItineraire.css";
 
