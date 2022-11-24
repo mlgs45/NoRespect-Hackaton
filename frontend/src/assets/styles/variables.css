@@ -11,4 +11,12 @@
   --navbarLinkColor: #d1d1d1;
   --navbarLinkHoverColor: #aed768;
   --navbarButtonColor: #aed768;
+  --navbarOuterContainerbackgroundColor: #202020;
+
+  /*-----------------------------*/
+  /*Variables footer             */
+  /*-----------------------------*/
+  --footerBackgroundColor: #202020;
+  --footerCopyrigthColor: #ccc;
+  --footerBorderTop: 1px solid #ccc;
 }

@@ -53,6 +53,6 @@
 }
 
 #outer-container {
-  height: 100px;
-  background-color: #202020;
+  height: 6.5rem;
+  background-color: var(--navbarOuterContainerbackgroundColor);
 }

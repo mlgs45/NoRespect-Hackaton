@@ -2,19 +2,19 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 50px;
-  background-color: #202020;
-  border-top: 1px solid #ccc;
+  height: 3rem;
+  background-color: var(--footerBackgroundColor);
+  border-top: var(--footerBorderTop);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0 1rem;
   box-sizing: border-box;
 }
 
 #copyrigth {
-  color: #ccc;
-  font-size: 15px;
+  color: var(--footerCopyrigthColor);
+  font-size: 1rem;
 }
 
 .container-social {
@@ -25,7 +25,7 @@ footer {
 .social {
   display: flex;
   flex-direction: row;
-  min-width: 25px;
-  min-height: 25px;
-  margin: 15px;
+  min-width: 2rem;
+  min-height: 2rem;
+  margin: 0.5rem;
 }
