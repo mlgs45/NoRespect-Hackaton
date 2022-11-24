@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div className="home">
       <Navbar />
-      <Tripjour1 />
       <Footer />
     </div>
   );
