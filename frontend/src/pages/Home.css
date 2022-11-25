@@ -498,4 +498,10 @@
   .bottom-illustration {
     display: none;
   }
+.container-animation {
+  display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 }
