@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Train Clermont-Ferrand > Toulouse",
-    "address": "Gare de Lyon",
+    "address": "Gare de Clermont-Ferrand",
     "description": "Entre Clermont-Ferrand et Toulouse, optez pour le train",
     "countCo2": "2,7",
     "website": "https://www.sncf.com/",
