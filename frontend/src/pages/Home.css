@@ -416,6 +416,13 @@
   }
 }
 
+.home-header {
+  display:flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+
 .home-info {
   display: flex;
   flex-direction: column;
@@ -439,18 +446,16 @@
   background-color: #975ab6;
   padding: 10%;
   text-align: center;
+  display: flex;
+    flex-direction: column;
 }
 
 .button-home {
   background-color: #ffac3e;
   margin: 0 auto;
-  width: 130px;
-  height: 47px;
-  left: 133px;
-  top: 511px;
-  border-radius: 1.5em;
-  text-align: center;
-  display: flex;
+  width: 10rem;
+  height: 3.5rem;
+  border-radius: 0.8rem;
 }
 
 .bottom-home-page {
@@ -460,10 +465,7 @@
 }
 
 .welcome-illustration {
-  display: flex;
-  justify-content: space-between;
   width: 70%;
-  margin-left: 15%;
 }
 
 .bottom-illustration {
