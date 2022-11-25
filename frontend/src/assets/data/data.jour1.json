@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Train Paris > Rome",
     "address": "Gare de Lyon",
-    "description": "Pour partir à Rome, privilégiez le train qui est la moins consommatrice en CO2",
+    "description": "Pour partir à Rome, privilégiez le train qui est le moins consommateur en CO2",
     "countCo2": "3,1",
     "website": "https://www.sncf.com/",
     "img": "img/train.png",
