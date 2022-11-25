@@ -9,6 +9,7 @@ export default function Quiz() {
   const [showChoiseDestination, setShowChoiseDestination] = useState(true);
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
+  const [destination, setDestination] = useState("");
 
   function handleClickBtn(e) {
     if (btnActive === e.currentTarget.id) {
@@ -28,8 +29,13 @@ export default function Quiz() {
     if (showChoiseDestination === false) {
       navigate("/toulouse");
     } else {
-      navigate("/results");
-    }
+      if (destination == "Elmer") {
+      navigate("/elmer");
+    } else { navigate("/results") }}
+};
+
+  const handleDestination = (e) => {
+    setDestination(e.target.value);
   };
 
   return (
@@ -69,6 +75,26 @@ export default function Quiz() {
               )}
             </div>
           </div>
+
+          <div className="form">
+            <button
+              id="choiseDestination"
+              onClick={handleClickChoiseDestination}
+              className={
+                showChoiseDestination === false ? "btn-active button" : "button"
+              }
+              type="button"
+            >
+              {showChoiseDestination === true ? "NON" : "OUI"}
+            </button>
+            {showChoiseDestination === true ? (
+              <input
+                className="w-70 mg-left-5"
+                type="text"
+                name="destination"
+                placeholder="Entrez votre destination"
+                onChange={(e) => setDestination(e.target.value)}
+
           <div className="card">
             <div className="card-title mg-b-1-4">
               Quelle sont les dates de votre voyages ?
@@ -187,12 +213,7 @@ export default function Quiz() {
           <div className="voyage-eco">
             ✅ <span className="t-bold">Voyage</span> écoresponsable
           </div>
-        </div>
-        <button
-          type="button"
-          className="button generate"
-          onClick={handleSubmit}
-        >
+        <button type="button" className="button generate" onClick={ () => {handleSubmit(); handleDestination();}}>
           Générer mon voyage →
         </button>
       </section>
