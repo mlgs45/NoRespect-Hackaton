@@ -1,4 +1,3 @@
-
 .title {
   text-align: center;
   font-family: Roboto;
@@ -90,7 +89,6 @@
   font-size: 0.8rem;
   font-style: italic;
   margin-top: 0.5rem;
-
 }
 
 .descStep {
@@ -163,14 +161,14 @@
 }
 
 @media screen and (min-width: 391px) {
-    .cardStep {
-        width: 50%;
-      margin-left:0;
-      margin-right: 0;
-    }
+  .cardStep {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   .jour {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -178,15 +176,15 @@
 
   .informationsStep {
     padding-left: 1rem;
-    padding-right:6rem;
-    margin-right:5rem;
+    padding-right: 6rem;
+    margin-right: 5rem;
   }
 }
 
 @media screen and (min-width: 1240px) {
   .informationsStep {
     padding-left: 1rem;
-    padding-right:6rem;
-    margin-right:10rem;
+    padding-right: 6rem;
+    margin-right: 10rem;
   }
 }

@@ -1,7 +1,7 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/layout-components/Footer/Footer";
 import Navbar from "../components/layout-components/Navbar/Navbar";
 import welcomeIcon from "../assets/img/home/welcomeIcon.svg";
-import { Link } from "react-router-dom";
 
 import "./Home.css";
 
@@ -39,10 +39,9 @@ export default function Home() {
       </div>
       <div className="home-start">
         <h2>Démarrer votre Journey</h2>
-        <Link to="/travel"><button type="button" className="button-home">
-          <div className="textButton">{" "}
-            GO{" "}
-          </div>
+        <Link to="/travel">
+          <button type="button" className="button-home">
+            <div className="textButton"> GO </div>
           </button>
         </Link>
       </div>
@@ -73,15 +72,15 @@ export default function Home() {
                 <div className="flame-3" />
               </div>
             </div>
-             <div className="tree-container-front">
-             <div className="tree-4" />
+            <div className="tree-container-front">
+              <div className="tree-4" />
               <div className="tree-5" />
               <div className="tree-6" />
               <div className="tree-4" />
               <div className="tree-5" />
               <div className="tree-6" />
-              <div className="tree-7" /> 
-           </div>
+              <div className="tree-7" />
+            </div>
           </div>
         </div>
       </div>
