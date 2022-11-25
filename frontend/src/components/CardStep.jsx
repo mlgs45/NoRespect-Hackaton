@@ -8,13 +8,14 @@ function CardStep({
   website,
   image,
   icon,
+  key,
 }) {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
   return (
     <div className="cardStep">
-      <img id="imgStep" src={image} alt="illustration of Step" />
+      <img id={key} src={image} alt="illustration of Step" />
       <div className="cardInformations">
         <div className="informationsStep">
           <div className="nameStep">{name}</div>

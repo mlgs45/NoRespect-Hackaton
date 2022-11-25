@@ -57,7 +57,8 @@
   width: auto;
   height: auto;
   background-color: #aed768;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
 #imgStep {
@@ -81,7 +82,7 @@
 
 .nameStep {
   font-weight: 900;
-  margin-top: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .adressStep {
@@ -89,6 +90,7 @@
   font-size: 0.8rem;
   font-style: italic;
   margin-top: 0.5rem;
+
 }
 
 .descStep {
@@ -133,7 +135,7 @@
 
 .jour {
   margin-bottom: 1rem;
-  margin-top: 1.6rem;
+  margin-top: 4rem;
 }
 
 .map {
