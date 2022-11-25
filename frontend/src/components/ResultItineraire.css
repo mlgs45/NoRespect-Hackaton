@@ -160,6 +160,10 @@
   margin-top: 0.4rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 391px) {
     .cardStep {
         width: 50%;

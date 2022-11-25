@@ -9,9 +9,8 @@ function CardStep({
   image,
   icon,
 }) {
-  const openInNewTab = (url) => {
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
+
+
   return (
     <div className="cardStep">
       <img id="imgStep" src={image} alt="illustration of Step" />
@@ -24,13 +23,12 @@ function CardStep({
         <div className="blocStep">
           <img id="iconStep" src={icon} alt="type of step" />
           <div className="countCo2">{countCo2} kg Co2</div>
-          <button
+          <a href={website}><button
             type="button"
             className="btn-booking"
-            onClick={() => openInNewTab({ website })}
           >
             <div className="textButton">Réserver</div>
-          </button>
+          </button></a>
         </div>
       </div>
     </div>
