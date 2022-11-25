@@ -1,0 +1,44 @@
+:root {
+  /*Color background for body page*/
+  --bodyBackgroundColor: #e8e0e0;
+
+  /*-----------------------------*/
+  /*Variables navbar             */
+  /*-----------------------------*/
+  --navbarBackgroundColor: #202020;
+  --navbarOverlayColor: rgba(0, 0, 0, 0.3);
+  --navbarCrossButtonColor: #aed768;
+  --navbarLinkColor: #d1d1d1;
+  --navbarLinkHoverColor: #aed768;
+  --navbarButtonColor: #aed768;
+  --navbarOuterContainerbackgroundColor: #202020;
+
+  /*-----------------------------*/
+  /*Variables footer             */
+  /*-----------------------------*/
+  --footerBackgroundColor: #202020;
+  --footerCopyrigthColor: #ccc;
+  --footerBorderTop: 1px solid #ccc;
+
+  /*-----------------------------*/
+  /*Variables notFound           */
+  /*-----------------------------*/
+  --notFoundButtonBackgroundColor: aliceblue;
+  --notFoundButtonTextColor: #202020;
+  --notFoundButtonBorder: 1px solid #f5f5f5;
+  --notFoundButtonHoverBackgroundColor: #aed768;
+  --notFoundButtonHovertextColor: aliceblue;
+  --notFoundButtonActiveBackgroundColor: #95b759;
+  --notFoundButtonActiveTextColor: aliceblue;
+
+  /*-----------------------------*/
+  /*Variables Home          */
+  /*-----------------------------*/
+  --color-sky-light: #ffd2bc;
+  --color-sky-dark: #aed768;
+  --color-tree-dark: #365e57;
+  --color-rock-dark: #2f484f;
+  --color-rock-light: #917472;
+  --color-flame-yellow: #fde26c;
+  --color-flame-orange: #fda263;
+}

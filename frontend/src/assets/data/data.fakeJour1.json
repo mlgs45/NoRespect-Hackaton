@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Train Paris > Marseille",
+    "address": "Gare de Lyon",
+    "description": "Pour partir à Marseille, privilégiez le train qui est le moins consommateur en CO2",
+    "countCo2": "3,1",
+    "website": "https://www.sncf.com/",
+    "img": "img/train.png",
+    "icon": "img/icon/icon-step-transport.svg"
+  },
+  {
+    "id": "2",
+    "name": "Restaurant El Thonio",
+    "address": "Avenue du BG, Marseille",
+    "description": "C'est le rendez-vous des codeurs de Marseille",
+    "countCo2": "1,5",
+    "website": "https://www.agorski.fr/",
+    "img": "img/resto-elthonio.png",
+    "type": "restaurant",
+    "icon": "img/icon/icon-step-restaurant.svg"
+  },
+  {
+    "id": "3",
+    "name": "Hotel Vandanjon",
+    "address": "Place du TA au top, Fontenay-le-Comte",
+    "description": "Le Maitre des lieux sera vous guider sur les routes du code",
+    "countCo2": "0",
+    "website": "https://www.linkedin.com/in/benoitvandanjon/",
+    "img": "img/palace-vandanjon.png",
+    "type": "tourisme",
+    "icon": "img/icon/icon-step-tourisme.svg"
+  }
+]
