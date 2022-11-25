@@ -6,6 +6,7 @@ import CardStep from "./CardStep";
 import { jour1, jour2 } from "../assets/data/data";
 import Map from "./Map";
 
+
 import "./ResultItineraire.css";
 
 function Tripjour1() {

@@ -1,3 +1,4 @@
+
 .title {
   text-align: center;
   font-family: Roboto;
@@ -51,8 +52,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   width: auto;
   height: auto;
   background-color: #aed768;
@@ -60,8 +61,8 @@
 }
 
 #imgStep {
-  width: 91px;
-  height: 91px;
+  width: 90px;
+  height: auto;
 }
 
 .cardInformations {
@@ -80,16 +81,21 @@
 
 .nameStep {
   font-weight: 900;
+  margin-top: 0.5rem;
 }
 
 .adressStep {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 0.5rem;
 }
 
 .descStep {
   font-weight: 400;
   font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .blocStep {
@@ -120,9 +126,6 @@
   background-color: #ffffff;
   border: none;
   border-radius: 5px;
-}
-
-.textButton {
   color: #aed768;
   font-size: 0.75rem;
   font-weight: 900;
@@ -155,4 +158,33 @@
   text-align: center;
   padding: 0.4rem;
   margin-top: 0.4rem;
+}
+
+@media screen and (min-width: 391px) {
+    .cardStep {
+        width: 50%;
+      margin-left:0;
+      margin-right: 0;
+    }
+
+  .jour {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .informationsStep {
+    padding-left: 1rem;
+    padding-right:6rem;
+    margin-right:5rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .informationsStep {
+    padding-left: 1rem;
+    padding-right:6rem;
+    margin-right:10rem;
+  }
 }

@@ -30,4 +30,15 @@
   --notFoundButtonHovertextColor: aliceblue;
   --notFoundButtonActiveBackgroundColor: #95b759;
   --notFoundButtonActiveTextColor: aliceblue;
+
+  /*-----------------------------*/
+  /*Variables Home          */
+  /*-----------------------------*/
+  --color-sky-light: #ffd2bc;
+  --color-sky-dark: #aed768;
+  --color-tree-dark: #365e57;
+  --color-rock-dark: #2f484f;
+  --color-rock-light: #917472;
+  --color-flame-yellow: #fde26c;
+  --color-flame-orange: #fda263;
 }
