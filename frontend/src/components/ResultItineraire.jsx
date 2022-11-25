@@ -7,7 +7,6 @@ import jour1 from "../assets/data/data.jour1.json";
 import jour2 from "../assets/data/data.jour2.json";
 import Map from "./Map";
 
-
 import "./ResultItineraire.css";
 
 function Tripjour1() {
