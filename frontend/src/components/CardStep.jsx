@@ -10,8 +10,6 @@ function CardStep({
   icon,
   key,
 }) {
-
-
   return (
     <div className="cardStep">
       <img id={key} src={image} alt="illustration of Step" />
@@ -24,12 +22,11 @@ function CardStep({
         <div className="blocStep">
           <img id="iconStep" src={icon} alt="type of step" />
           <div className="countCo2">{countCo2} kg Co2</div>
-          <a href={website}><button
-            type="button"
-            className="btn-booking"
-          >
-            <div className="textButton">Réserver</div>
-          </button></a>
+          <a href={website}>
+            <button type="button" className="btn-booking">
+              <div className="textButton">Réserver</div>
+            </button>
+          </a>
         </div>
       </div>
     </div>
