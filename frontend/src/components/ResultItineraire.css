@@ -1,4 +1,3 @@
-
 .title {
   text-align: center;
   font-family: Roboto;
@@ -57,7 +56,8 @@
   width: auto;
   height: auto;
   background-color: #aed768;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
 #imgStep {
@@ -81,7 +81,7 @@
 
 .nameStep {
   font-weight: 900;
-  margin-top: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .adressStep {
@@ -133,7 +133,7 @@
 
 .jour {
   margin-bottom: 1rem;
-  margin-top: 1.6rem;
+  margin-top: 4rem;
 }
 
 .map {
@@ -165,14 +165,14 @@ a {
 }
 
 @media screen and (min-width: 391px) {
-    .cardStep {
-        width: 50%;
-      margin-left:0;
-      margin-right: 0;
-    }
+  .cardStep {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   .jour {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -180,15 +180,15 @@ a {
 
   .informationsStep {
     padding-left: 1rem;
-    padding-right:6rem;
-    margin-right:5rem;
+    padding-right: 6rem;
+    margin-right: 5rem;
   }
 }
 
 @media screen and (min-width: 1240px) {
   .informationsStep {
     padding-left: 1rem;
-    padding-right:6rem;
-    margin-right:10rem;
+    padding-right: 6rem;
+    margin-right: 10rem;
   }
 }

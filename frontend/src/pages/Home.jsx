@@ -1,9 +1,8 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/layout-components/Footer/Footer";
 import Navbar from "../components/layout-components/Navbar/Navbar";
 import welcomeIcon from "../assets/img/home/welcomeIcon.svg";
-import { Link } from "react-router-dom";
-
-import "./Home.css";
+import "../components/layout-components/Home/Home.css";
 
 export default function Home() {
   return (
@@ -18,7 +17,7 @@ export default function Home() {
       </header>
       <div className="home-info">
         <span>
-          <h2> Envie de vous évadez ? </h2>
+          <h2 className="titleInfo"> Envie de vous évader ? </h2>
         </span>
         <span>
           {" "}
@@ -38,11 +37,10 @@ export default function Home() {
         </span>
       </div>
       <div className="home-start">
-        <h2>Démarrer votre Journey</h2>
-        <Link to="/travel"><button type="button" className="button-home">
-          <div className="textButton">{" "}
-            GO{" "}
-          </div>
+        <h2>Démarrer votre voyage</h2>
+        <Link to="/travel">
+          <button type="button" className="button-home">
+            <div className="textButton"> GO </div>
           </button>
         </Link>
       </div>
@@ -73,15 +71,15 @@ export default function Home() {
                 <div className="flame-3" />
               </div>
             </div>
-             <div className="tree-container-front">
-             <div className="tree-4" />
+            <div className="tree-container-front">
+              <div className="tree-4" />
               <div className="tree-5" />
               <div className="tree-6" />
               <div className="tree-4" />
               <div className="tree-5" />
               <div className="tree-6" />
-              <div className="tree-7" /> 
-           </div>
+              <div className="tree-7" />
+            </div>
           </div>
         </div>
       </div>
