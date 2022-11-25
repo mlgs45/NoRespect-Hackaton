@@ -1,16 +1,22 @@
 footer {
+  position: static;
   bottom: 0;
-  position: relative;
-  margin-top: 2.9rem;
   width: 100%;
-  height: 3.1rem;
-  background-color: var(--footerBackgroundColor);
-  border-top: var(--footerBorderTop);
+  height: 50px;
+  background-color: #202020;
+  border-top: 1px solid #ccc;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
+  padding: 0 10px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 391px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
 }
 
 #copyrigth {
