@@ -133,6 +133,31 @@
 
 .jour {
   margin-bottom: 1rem;
+  margin-top: 1.6rem;
+}
+
+.map {
+  height: 200px;
+  margin-top: 0.8rem;
+  border: 1px rgba(0, 0, 0, 0.182) solid;
+  margin-bottom: 3rem;
+}
+
+.mapIcon {
+  color: rgb(112 112 112);
+  margin-right: 0.8rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.trajetInfosGroupe {
+  background-color: #d5d5d5ed;
+  font-size: 12px;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0.4rem;
+  margin-top: 0.4rem;
 }
 
 @media screen and (min-width: 391px) {
