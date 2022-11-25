@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import CardStep from "./CardStep";
-import { jour1, jour2 } from "../assets/data/data";
+import jour1 from "../assets/data/data.jour1.json";
+import jour2 from "../assets/data/data.jour2.json";
 import Map from "./Map";
 
 
