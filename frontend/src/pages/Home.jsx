@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../components/layout-components/Footer/Footer";
 import Navbar from "../components/layout-components/Navbar/Navbar";
 import welcomeIcon from "../assets/img/home/welcomeIcon.svg";
-import "./Home.css";
+import "../components/layout-components/Home/Home.css";
 
 export default function Home() {
   return (
