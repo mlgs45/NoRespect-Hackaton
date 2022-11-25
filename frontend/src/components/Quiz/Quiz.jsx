@@ -2,6 +2,7 @@ import "./Quiz.css";
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import {useNavigate} from "react-router-dom";
 
 export default function Quiz() {
   const [btnActive, setBtnActive] = useState("");
@@ -20,6 +21,16 @@ export default function Quiz() {
   function handleClickChoiseDestination() {
     setShowChoiseDestination(!showChoiseDestination);
   }
+
+  const navigate = useNavigate();
+
+  const handleSubmit = () => {
+    if (showChoiseDestination === false) {
+      navigate("/toulouse");
+    } else {
+      navigate("/results");
+    }
+  };
 
   return (
     <div className="content">
@@ -173,7 +184,7 @@ export default function Quiz() {
         <div className="voyage-eco">
           ✅ <span className="t-bold">Voyage</span> écoresponsable
         </div>
-        <button type="button" className="button generate">
+        <button type="button" className="button generate" onClick={handleSubmit}>
           Générer mon voyage →
         </button>
       </section>
