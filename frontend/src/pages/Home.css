@@ -456,15 +456,13 @@
   width: 10rem;
   height: 3.5rem;
   border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 3.5rem;
 }
 
-.textButton {
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: center;
-    line-height: 3.5rem;
-}
 
 .bottom-home-page {
   background-color: #aed768;

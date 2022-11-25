@@ -43,7 +43,8 @@ export default function Home() {
           <div className="textButton">{" "}
             GO{" "}
           </div>
-        </button></Link>
+          </button>
+        </Link>
       </div>
       <div className="container-animation">
         <div className="container-animation">

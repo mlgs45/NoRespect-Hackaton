@@ -151,7 +151,15 @@
 
   .informationsStep {
     padding-left: 1rem;
-    padding-right:2rem;
+    padding-right:6rem;
     margin-right:5rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .informationsStep {
+    padding-left: 1rem;
+    padding-right:6rem;
+    margin-right:10rem;
   }
 }
