@@ -10,7 +10,6 @@
     "dev-front": "npm --prefix ./frontend run dev",
     "lint": "npm --prefix ./frontend run lint",
     "fix": "npm --prefix ./frontend run fix",
-    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
