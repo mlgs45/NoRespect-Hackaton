@@ -66,7 +66,7 @@ function TripjourToulouse() {
           <div className="headerDay">
             <FontAwesomeIcon className="mapIcon" icon={faMapLocationDot} />
             <div className="dayCount">
-              <div className="dayD">JOUR 1</div>
+              <div className="dayD">JOUR 2</div>
             </div>
             <div className="nameCity">TOULOUSE</div>
           </div>
