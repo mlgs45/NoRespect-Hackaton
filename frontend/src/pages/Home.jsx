@@ -70,19 +70,20 @@ export default function Home() {
                 <div className="flame-3" />
               </div>
             </div>
-            <div className="tree-container-front">
-              <div className="tree-1" />
-              <div className="tree-2" />
-              <div className="tree-3" />
+             <div className="tree-container-front">
+             <div className="tree-4" />
+              <div className="tree-5" />
+              <div className="tree-6" />
               <div className="tree-4" />
               <div className="tree-5" />
               <div className="tree-6" />
-              <div className="tree-7" />
-            </div>
+              <div className="tree-7" /> 
+           </div>
           </div>
         </div>
-        <Footer />
       </div>
+
+      <Footer />
     </div>
   );
 }
