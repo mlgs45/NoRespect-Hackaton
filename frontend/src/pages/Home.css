@@ -458,6 +458,14 @@
   border-radius: 0.8rem;
 }
 
+.textButton {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3.5rem;
+}
+
 .bottom-home-page {
   background-color: #aed768;
   display: flex;
@@ -476,4 +484,22 @@
   display: flex;
   width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 391px) {
+  .bottom-home-page {
+    padding: 0;
+  }
+  .home-info {
+    margin-bottom: 4rem;
+  }
+  .home-start {
+    padding: 2rem;
+  }
+  .welcome-illustration {
+    width: 30%;
+  }
+  .bottom-illustration {
+    display: none;
+  }
 }
